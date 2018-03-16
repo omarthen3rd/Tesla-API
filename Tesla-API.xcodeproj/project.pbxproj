@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5628FCCE205C3C2D00E1E19A /* HVACRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5628FCCD205C3C2D00E1E19A /* HVACRequest.swift */; };
+		5628FCCF205C3C2D00E1E19A /* HVACRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5628FCCD205C3C2D00E1E19A /* HVACRequest.swift */; };
+		5628FCD0205C3C2D00E1E19A /* HVACRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5628FCCD205C3C2D00E1E19A /* HVACRequest.swift */; };
+		5628FCD1205C3C2D00E1E19A /* HVACRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5628FCCD205C3C2D00E1E19A /* HVACRequest.swift */; };
+		FC0B57441FBF977B00AE4D0B /* BoolResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B57431FBF977B00AE4D0B /* BoolResponses.swift */; };
+		FC0B57451FBF977B00AE4D0B /* BoolResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B57431FBF977B00AE4D0B /* BoolResponses.swift */; };
+		FC0B57461FBF977B00AE4D0B /* BoolResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B57431FBF977B00AE4D0B /* BoolResponses.swift */; };
+		FC0B57471FBF977B00AE4D0B /* BoolResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B57431FBF977B00AE4D0B /* BoolResponses.swift */; };
 		FC1B80971F49883500D24310 /* MobileEnabledForVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */; };
 		FC1B80981F498A2E00D24310 /* MobileEnabledForVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */; };
 		FC1B80991F498A2F00D24310 /* MobileEnabledForVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */; };
@@ -117,6 +125,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5628FCCD205C3C2D00E1E19A /* HVACRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVACRequest.swift; sourceTree = "<group>"; };
+		FC0B57431FBF977B00AE4D0B /* BoolResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolResponses.swift; sourceTree = "<group>"; };
 		FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileEnabledForVehicleRequest.swift; sourceTree = "<group>"; };
 		FC27C9791F4993E10064E1AE /* ModelMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelMocks.swift; sourceTree = "<group>"; };
 		FC27C97E1F4995240064E1AE /* ListVehiclesRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVehiclesRequestTests.swift; sourceTree = "<group>"; };
@@ -255,6 +265,7 @@
 				FCE946461F2CF10E004913FC /* AuthenticateRequest.swift */,
 				FC80D5011F2CE6FD0013F6DF /* ListVehiclesRequest.swift */,
 				FC75EC521F2E4AD7007ED697 /* LockRequest.swift */,
+				5628FCCD205C3C2D00E1E19A /* HVACRequest.swift */,
 				FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */,
 				FC75EC571F2E613A007ED697 /* OpenChargePortRequest.swift */,
 				FCE825FB1F8C068F00B72C08 /* ChargeStateRequest.swift */,
@@ -603,6 +614,7 @@
 				FC48F9AE1F1E7FCE00D2400B /* Vehicle.swift in Sources */,
 				FC48F9AA1F1E7FBA00D2400B /* WebRequest.swift in Sources */,
 				FC48F9A61F1E7FB600D2400B /* TeslaAPI.swift in Sources */,
+				5628FCCF205C3C2D00E1E19A /* HVACRequest.swift in Sources */,
 				FCE825FD1F8C068F00B72C08 /* ChargeStateRequest.swift in Sources */,
 				FC75EC4C1F2E068E007ED697 /* RequestProtocol.swift in Sources */,
 				FC75EC541F2E4F2F007ED697 /* LockRequest.swift in Sources */,
@@ -623,6 +635,7 @@
 				FC48F9AD1F1E7FCE00D2400B /* Vehicle.swift in Sources */,
 				FC48F9A91F1E7FBA00D2400B /* WebRequest.swift in Sources */,
 				FC48F9A51F1E7FB500D2400B /* TeslaAPI.swift in Sources */,
+				5628FCD0205C3C2D00E1E19A /* HVACRequest.swift in Sources */,
 				FCE825FE1F8C068F00B72C08 /* ChargeStateRequest.swift in Sources */,
 				FC75EC4A1F2E068C007ED697 /* RequestProtocol.swift in Sources */,
 				FC75EC551F2E4F30007ED697 /* LockRequest.swift in Sources */,
@@ -643,6 +656,7 @@
 				FC48F9AC1F1E7FCD00D2400B /* Vehicle.swift in Sources */,
 				FC48F9A81F1E7FBA00D2400B /* WebRequest.swift in Sources */,
 				FC48F9A41F1E7FB400D2400B /* TeslaAPI.swift in Sources */,
+				5628FCD1205C3C2D00E1E19A /* HVACRequest.swift in Sources */,
 				FCE825FF1F8C068F00B72C08 /* ChargeStateRequest.swift in Sources */,
 				FC75EC491F2E068C007ED697 /* RequestProtocol.swift in Sources */,
 				FC75EC561F2E4F30007ED697 /* LockRequest.swift in Sources */,
@@ -693,6 +707,7 @@
 				FC48F9AF1F1E7FCE00D2400B /* Vehicle.swift in Sources */,
 				FC99DFD31F1FB41400013FE9 /* Token.swift in Sources */,
 				FC48F9AB1F1E7FBB00D2400B /* WebRequest.swift in Sources */,
+				5628FCCE205C3C2D00E1E19A /* HVACRequest.swift in Sources */,
 				FCE825FC1F8C068F00B72C08 /* ChargeStateRequest.swift in Sources */,
 				FC75EC4B1F2E068D007ED697 /* RequestProtocol.swift in Sources */,
 				FCE946471F2CF10E004913FC /* AuthenticateRequest.swift in Sources */,
