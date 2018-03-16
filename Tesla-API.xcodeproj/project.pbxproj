@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5628FCE3205C72AF00E1E19A /* HornRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5628FCE1205C72AE00E1E19A /* HornRequest.swift */; };
+		5628FCE4205C72AF00E1E19A /* HVACRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5628FCE2205C72AF00E1E19A /* HVACRequest.swift */; };
 		FC1B80971F49883500D24310 /* MobileEnabledForVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */; };
 		FC1B80981F498A2E00D24310 /* MobileEnabledForVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */; };
 		FC1B80991F498A2F00D24310 /* MobileEnabledForVehicleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */; };
@@ -117,6 +119,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5628FCE1205C72AE00E1E19A /* HornRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HornRequest.swift; sourceTree = "<group>"; };
+		5628FCE2205C72AF00E1E19A /* HVACRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HVACRequest.swift; sourceTree = "<group>"; };
 		FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileEnabledForVehicleRequest.swift; sourceTree = "<group>"; };
 		FC27C9791F4993E10064E1AE /* ModelMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelMocks.swift; sourceTree = "<group>"; };
 		FC27C97E1F4995240064E1AE /* ListVehiclesRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVehiclesRequestTests.swift; sourceTree = "<group>"; };
@@ -253,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				FCE946461F2CF10E004913FC /* AuthenticateRequest.swift */,
+				5628FCE1205C72AE00E1E19A /* HornRequest.swift */,
+				5628FCE2205C72AF00E1E19A /* HVACRequest.swift */,
 				FC80D5011F2CE6FD0013F6DF /* ListVehiclesRequest.swift */,
 				FC75EC521F2E4AD7007ED697 /* LockRequest.swift */,
 				FC1B80961F49883500D24310 /* MobileEnabledForVehicleRequest.swift */,
@@ -691,11 +697,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC48F9AF1F1E7FCE00D2400B /* Vehicle.swift in Sources */,
+				5628FCE4205C72AF00E1E19A /* HVACRequest.swift in Sources */,
 				FC99DFD31F1FB41400013FE9 /* Token.swift in Sources */,
 				FC48F9AB1F1E7FBB00D2400B /* WebRequest.swift in Sources */,
 				FCE825FC1F8C068F00B72C08 /* ChargeStateRequest.swift in Sources */,
 				FC75EC4B1F2E068D007ED697 /* RequestProtocol.swift in Sources */,
 				FCE946471F2CF10E004913FC /* AuthenticateRequest.swift in Sources */,
+				5628FCE3205C72AF00E1E19A /* HornRequest.swift in Sources */,
 				FC75EC531F2E4AD7007ED697 /* LockRequest.swift in Sources */,
 				FC1B80971F49883500D24310 /* MobileEnabledForVehicleRequest.swift in Sources */,
 				FCE826011F8C075C00B72C08 /* ChargeState.swift in Sources */,
