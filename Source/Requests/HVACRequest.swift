@@ -12,10 +12,8 @@ public struct HVACReqeust: RequestProtocol {
             return "/api/1/vehicles/\(vehicleIdentifier)/command/auto_conditioning_start"
         case .stop:
             return "/api/1/vehicles/\(vehicleIdentifier)/command/auto_conditioning_stop"
-            
         }
     }
-    
     let method = WebRequest.RequestMethod.post
     let accessToken: String
     let vehicleIdentifier: String
@@ -32,24 +30,19 @@ public struct HVACReqeust: RequestProtocol {
             if let error = error {
                 DispatchQueue.main.async {
                     completion(Result.failure(error))
-                    
                 }
             } else if let data = data {
                 do {
                     let resultResponse = try JSONDecoder().decode(ResultResponse.self, from: data)
                     DispatchQueue.main.async {
                         completion(Result.success(resultResponse.response.result))
-                        
                     }
                 } catch let error {
                     DispatchQueue.main.async {
                         completion(Result.failure(error))
-                        
                     }
                 }
             }
         }
     }
-    
 }
-
